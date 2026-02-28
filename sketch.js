@@ -223,7 +223,7 @@ function setup() {
   valenciaB = createSprite(displayWidth/2 + 123.5 ,displayHeight/2 - 40,38,10);
   valenciaB.visible = false;
 
-   extra = createSprite(displayWidth/2-10,displayHeight-161.5,185,40);
+   extra = createSprite(displayWidth/2-10,displayHeight/2 +198.5,185,40);
    extra.addImage(extraI);
    extra.scale = 0.76;
    extra.visible = false; 
@@ -298,7 +298,7 @@ function setup() {
    back.scale = 0.19;
    back.visible = false;
 
-   quizB = createSprite(displayWidth+400,displayHeight-190,50,50);
+   quizB = createSprite(displayWidth+400,displayHeight/2+170,50,50);
    quizB.addImage(quizImg);
    quizB.scale = 0.8;
    quizB.visible = false;
@@ -328,7 +328,7 @@ function setup() {
    number.scale = 0.05;
    number.visible = false;*/
 
-   next = createSprite(displayWidth+340,displayHeight-190,50,50);
+   next = createSprite(displayWidth+340,displayHeight/2+170,50,50);
    next.addImage(nextI);
    next.scale = 0.35;
    next.visible = false;   
@@ -343,7 +343,7 @@ function setup() {
    done.scale = 0.4;
    done.visible = false;
 
-   home = createSprite(250,displayHeight/2-310,50,50);
+   home = createSprite(displayWidth/2 -390,displayHeight/2-310,50,50);
    home.addImage(homeImg);
    home.scale = 0.07;
    home.visible = false;
@@ -3132,6 +3132,6 @@ if(gamestate === 2)
       fill("white");
       textSize(20);
       textFont("Cooper");
-      text(infoText, displayWidth/2-300,110, 1000, 1000);
+      text(infoText, displayWidth/2-300,displayHeight/2-250, 1000, 1000);
    }  
 }
