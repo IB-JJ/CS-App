@@ -108,7 +108,7 @@ function setup() {
   andalusia1.addImage(andalusia);
   andalusia1.scale = 0.137; // Adjust scale to fit the screen
   andalusia1.visible = false;
-  andalusiaB = createSprite(displayWidth/2 - 68 ,displayHeight - 270,50,15);
+  andalusiaB = createSprite(displayWidth/2 - 68 ,displayHeight/2 + 95,50,15);
   andalusiaB.visible = false;
 
   aragon1 = createSprite(displayWidth/2, displayHeight/2 - 70,displayWidth,displayHeight);
@@ -122,7 +122,7 @@ function setup() {
   asturias1.addImage(asturias);
   asturias1.scale = 0.137; // Adjust scale to fit the screen
   asturias1.visible = false;
-  asturiasB = createSprite(displayWidth/2 - 130 ,63,50,10);
+  asturiasB = createSprite(displayWidth/2 - 130 ,displayHeight/2-300,50,10);
   asturiasB.visible = false;
 
   balearic1 = createSprite(displayWidth/2, displayHeight/2 - 70,displayWidth,displayHeight);
@@ -136,21 +136,21 @@ function setup() {
   basque1.addImage(basque);
   basque1.scale = 0.137; // Adjust scale to fit the screen
   basque1.visible = false;
-  basqueB = createSprite(displayWidth/2 + 35 ,75,45,25);
+  basqueB = createSprite(displayWidth/2 + 35 ,displayHeight/2 - 285,45,25);
   basqueB.visible = false;
 
   canary1 = createSprite(displayWidth/2, displayHeight/2 - 70,displayWidth,displayHeight);
   canary1.addImage(canary);
   canary1.scale = 0.137; // Adjust scale to fit the screen
   canary1.visible = false;
-  canaryB = createSprite(displayWidth/2 + 330 ,displayHeight - 205,70,10);
+  canaryB = createSprite(displayWidth/2 + 330 ,displayHeight/2 + 155,70,10);
   canaryB.visible = false;
 
   cantabria1 = createSprite(displayWidth/2, displayHeight/2 - 70,displayWidth,displayHeight);
   cantabria1.addImage(cantabria);
   cantabria1.scale = 0.137; // Adjust scale to fit the screen
   cantabria1.visible = false;
-  cantabriaB = createSprite(displayWidth/2 - 35 ,65,50,10);
+  cantabriaB = createSprite(displayWidth/2 - 35 ,displayHeight/2 - 295,50,10);
   cantabriaB.visible = false;
   
   castileLeon1 = createSprite(displayWidth/2, displayHeight/2 - 70,displayWidth,displayHeight);
@@ -185,14 +185,14 @@ function setup() {
   galicia1.addImage(galicia);
   galicia1.scale = 0.137; // Adjust scale to fit the screen
   galicia1.visible = false;
-  galiciaB = createSprite(displayWidth/2 - 238 ,93,33,10);
+  galiciaB = createSprite(displayWidth/2 - 238 ,displayHeight/2-265,33,10);
   galiciaB.visible = false;
 
   laRioja1 = createSprite(displayWidth/2, displayHeight/2 - 70,displayWidth,displayHeight);
   laRioja1.addImage(laRioja);
   laRioja1.scale = 0.137; // Adjust scale to fit the screen
   laRioja1.visible = false;
-  laRiojaB = createSprite(displayWidth/2 + 38 ,133,35,10);
+  laRiojaB = createSprite(displayWidth/2 + 38 ,displayHeight/2 - 227,35,10);
   laRiojaB.visible = false;
 
   madrid1 = createSprite(displayWidth/2, displayHeight/2 - 70,displayWidth,displayHeight);
@@ -206,14 +206,14 @@ function setup() {
   murcia1.addImage(murcia);         
   murcia1.scale = 0.137; // Adjust scale to fit the screen
   murcia1.visible = false;
-  murciaB = createSprite(displayWidth/2  + 90 ,displayHeight - 303,33,10);
+  murciaB = createSprite(displayWidth/2  + 90 ,displayHeight/2+55,33,10);
   murciaB.visible = false;
 
   navarre1 = createSprite(displayWidth/2, displayHeight/2 - 70,displayWidth,displayHeight);
   navarre1.addImage(navarre);
   navarre1.scale = 0.137; // Adjust scale to fit the screen
   navarre1.visible = false;
-  navarreB = createSprite(displayWidth/2 + 84 ,109,38,10);
+  navarreB = createSprite(displayWidth/2 + 84 ,displayHeight/2 - 252,38,10);
   navarreB.visible = false;
 
   valencia1 = createSprite(displayWidth/2, displayHeight/2 - 70,displayWidth,displayHeight);
@@ -338,7 +338,7 @@ function setup() {
    end.scale = 1.5;
    end.visible = false;
 
-   done = createSprite(displayWidth/2, displayHeight-270,400,400);
+   done = createSprite(displayWidth/2, displayHeight/2+90,400,400);
    done.addImage(doneI);
    done.scale = 0.4;
    done.visible = false;
