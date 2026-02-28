@@ -1718,7 +1718,7 @@ function draw() {
       {
          next.visible = true;
          setTimeout(() => {
-            next.x=displayWidth-340;
+            next.x=displayWidth/2+300;
         }, 100)
 
       }
