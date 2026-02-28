@@ -1805,7 +1805,7 @@ function draw() {
       fill("black");   
       textSize(20);
       textFont("cooper");
-      text("Click on the name\n"+ "of a region to learn\n"+"more about it!", displayWidth/2-430,displayHeight/2-100, 500, 220);
+      text("Click on the NAME\n"+ "of a region to learn\n"+"more about it!", displayWidth/2-430,displayHeight/2-100, 500, 220);
 
   }
 if(gamestate === 2)
