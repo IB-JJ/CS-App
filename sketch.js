@@ -95,7 +95,7 @@ function setup() {
   homeScreen.addImage(hp);
   homeScreen.scale = 2.1; // Adjust scale to fit the screen
 
-  cont = createSprite(displayWidth/2, displayHeight-230,400,400);
+  cont = createSprite(displayWidth/2, displayHeight/2+130,400,400);
   cont.addImage(start);
   cont.scale = 0.5;
 
@@ -289,7 +289,7 @@ function setup() {
    exitB.scale = 0.3;
    exitB.visible = false;
 
-   quit = createSprite(displayWidth/2 - 300,displayHeight-190,50,50);
+   quit = createSprite(displayWidth/2 - 300,displayHeight/2 +170,50,50);
    quit.addImage(exit);
    quit.scale = 0.25;
    quit.visible = false;
@@ -783,16 +783,16 @@ function draw() {
      ans = 0;
      //Reset option positions and scales
      food.x = displayWidth/2 -364;
-     food.y = 50;
+     food.y = displayHeight/2 -310;
      food.scale = 1;
      places.x = displayWidth/2 +364;
-     places.y = 50;
+     places.y = displayHeight/2 -310;
      places.scale = 1;
      language.x  = displayWidth/2 -360;
-     language.y = displayHeight -300;
+     language.y = displayHeight/2 + 60;
      language.scale = 1;
      speciality.x = displayWidth/2 +360;
-     speciality.y = displayHeight -300;
+     speciality.y = displayHeight/2 +60;
      speciality.scale = 1;
      back.x=displayWidth+340;
     // quizB.x=displayWidth/2;
