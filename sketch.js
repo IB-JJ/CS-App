@@ -1464,7 +1464,7 @@ function draw() {
          //
          ques = 1;
          randomPos = Math.round(random(1,24));
-         console.log("randomPos="+randomPos);  
+        // console.log("randomPos="+randomPos);  
          randomPosGen();
       }
       if(gamestate === 4)
@@ -1660,6 +1660,7 @@ function draw() {
                select=1;
                //console.log("select="+select);
                ans++;
+               console.log("ans="+ans);
             }
             if(mousePressedOver(wrong1))
             {
@@ -1730,7 +1731,7 @@ function draw() {
          wrong3.visible = false;
          correct.visible = false;*/
 
-         console.log(randomPos);
+         //console.log(randomPos);
          if(ques <= 15)
             {
                gamestate = 7;
@@ -1750,6 +1751,7 @@ function draw() {
       }
       if(gamestate ===6)
       {
+         console.log("SCORE:"+ans);        
          end.visible = true;
          wrong1.visible = false;
          wrong2.visible = false;
