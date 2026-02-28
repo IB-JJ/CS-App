@@ -794,7 +794,7 @@ function draw() {
      speciality.x = displayWidth/2 +360;
      speciality.y = displayHeight/2 +60;
      speciality.scale = 1;
-     back.x=displayWidth+340;
+     back.x=displayWidth+ 200;
     // quizB.x=displayWidth/2;
      next.x=displayWidth+340;
    }
@@ -1439,7 +1439,7 @@ function draw() {
          back.visible = true;
          quit.visible = false;
          setTimeout(() => {
-            back.x=displayWidth-340;
+            back.x=displayWidth/2+300;
         }, 200)
       }
       if(mousePressedOver(back) && gamestate === 3)
@@ -1797,7 +1797,7 @@ function draw() {
      text(option3, wrong3.x-50,wrong3.y-17, 660, 220);
      text(optionC, correct.x-50,correct.y-17, 660, 220);
      textSize(25);
-     text(questionText, displayWidth/2-300,100, 1000, 220);
+     text(questionText, displayWidth/2-300,displayHeight/2-260, 1000, 220);
      
   } 
   if(gamestate === 1)
